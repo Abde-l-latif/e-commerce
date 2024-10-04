@@ -1,0 +1,19 @@
+.container {
+  position: relative;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.icon {
+  font-size: 22px;
+}
+
+.container:hover {
+  background-color: rgb(219, 26, 26);
+}
+
+.container:hover .icon {
+  color: white;
+}
